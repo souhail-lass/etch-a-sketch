@@ -1,0 +1,99 @@
+@font-face {
+    font-family: myFont;
+    src: url(./assets/Purple\ Smile.ttf);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f2ff;
+}
+.gameName{
+    font-size: 34px;
+    color: red;
+    font-family: myFont;
+}
+#board{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    background-color:#ffffff;
+    -webkit-box-shadow: -2px -1px 39px 6px rgba(166,153,153,0.7);   
+};
+.blocks{
+    width: ;
+}
+.black{
+    
+    background-color: black !important;
+    color: white;
+}
+
+.gray{
+    background-color: #c3c3c3 !important;
+}
+.random{
+    background-image: linear-gradient(0.25turn, rgb(219, 226, 219), violet, yellow);
+}
+.reset{
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+.btns div, .size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #ffffff;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+.size{
+    padding: 0 15px;
+}
+.setSize{
+    display: flex;
+    width:400px;
+    justify-content: center;
+    height: 88px;
+    
+}
+.square{
+    background-color: white;
+}
+.input{
+    margin-right: 25px;
+    text-align: center;
+    font-size: 16px;
+    height: 38px;
+    
+    
+}
+.sizeAnswer{
+    display:column;
+
+}
+.sizeAnswer p {
+    margin: 5px 0;
+    color: red;
+}
+.credit{
+    text-align: right;
+    width: 100%;
+    margin-right: 20px;
+}

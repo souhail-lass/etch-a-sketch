@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+        <div class="gameName">
+            Etch and Sketch
+        </div>
+        <div id="board">    
+            
+        </div>
+        <div class="btns">
+            <div class="black" onclick="changeColor('black')">Black</div>
+            <div class="erase" onclick="changeColor('white')">Eraser</div>
+            <div class="gray" onclick="changeColor('gray')">Gray</div>
+            <div class="random" onclick="changeColor('random')">Random</div>
+            <div class="reset"onclick="reset()" >Reset</div>
+        </div>
+        <div class="setSize">
+            <div class="sizeAnswer">
+                <input type="number" class="input" placeholder="Size of Board" value="16" onchange="changeSize(this.value)"/>
+                <p class="show"><i></i></p>
+            </div>
+            <div class="size">Set Size</div>
+        </div>
+        <div class="credit">Game made by Sou</div>    
+
+    
+    <script src='main.js'></script>
+</body>
+</html>
